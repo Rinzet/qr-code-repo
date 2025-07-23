@@ -1,0 +1,60 @@
+body {
+  background: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: white;
+  padding: 16px 16px 40px 16px;
+  border-radius: 20px;
+}
+body .container .qr-code {
+  width: 100%;
+  max-width: 288px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+body .container .qr-code-text {
+  width: 100%;
+  max-width: 288px;
+  height: 100%;
+  max-height: 131px;
+  text-align: center;
+}
+body .container .qr-code-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 12px;
+}
+body .container .qr-code-text p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: hsl(216, 15%, 48%);
+  padding: 0 16px 0 16px;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 16px;
+}
+body .attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
